@@ -17,6 +17,11 @@ class PosterTheme(str, Enum):
     CORPORATE = "corporate"
     EVENT = "event"
     SALE = "sale"
+    PROFESSIONAL = "professional"
+    CREATIVE = "creative"
+    DARK = "dark"
+    RETRO = "retro"
+    ELEGANT = "elegant"
 
 class PosterRequest(BaseModel):
     title: str = Field(..., description="Main title for the poster")
